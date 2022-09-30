@@ -1,0 +1,867 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		666567AA28E2FE1000F174D8 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666567A928E2FE1000F174D8 /* HomeViewModel.swift */; };
+		666567B728E32B1C00F174D8 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666567B628E32B1C00F174D8 /* DetailsView.swift */; };
+		666567B928E32BA700F174D8 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666567B828E32BA700F174D8 /* LocationManager.swift */; };
+		666567BC28E3300700F174D8 /* HomeListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666567BB28E3300700F174D8 /* HomeListRowView.swift */; };
+		666567F428E5CEE000F174D8 /* PublicToilet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666567F328E5CEE000F174D8 /* PublicToilet.swift */; };
+		666567F828E6E4C300F174D8 /* AppInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666567F728E6E4C300F174D8 /* AppInfo.swift */; };
+		666567FB28E6E8A800F174D8 /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666567FA28E6E8A800F174D8 /* ButtonStyle.swift */; };
+		666567FF28E6EAE400F174D8 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 666567FE28E6EAE400F174D8 /* Lottie */; };
+		6665680128E7015700F174D8 /* HoraireView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6665680028E7015700F174D8 /* HoraireView.swift */; };
+		6665680428E7051E00F174D8 /* animationView.json in Resources */ = {isa = PBXBuildFile; fileRef = 6665680328E7051E00F174D8 /* animationView.json */; };
+		66CEC3A728DDC4CB0038343A /* PublicToiletsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CEC3A628DDC4CB0038343A /* PublicToiletsApp.swift */; };
+		66CEC3AB28DDC4CC0038343A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66CEC3AA28DDC4CC0038343A /* Assets.xcassets */; };
+		66CEC3AE28DDC4CC0038343A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66CEC3AD28DDC4CC0038343A /* Preview Assets.xcassets */; };
+		66CEC3B828DDC4CD0038343A /* PublicToiletsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CEC3B728DDC4CD0038343A /* PublicToiletsTests.swift */; };
+		66CEC3C228DDC4CD0038343A /* PublicToiletsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CEC3C128DDC4CD0038343A /* PublicToiletsUITests.swift */; };
+		66CEC3C428DDC4CD0038343A /* PublicToiletsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CEC3C328DDC4CD0038343A /* PublicToiletsUITestsLaunchTests.swift */; };
+		66CEC40428DDC5610038343A /* TextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CEC3DF28DDC5610038343A /* TextStyle.swift */; };
+		66CEC40728DDC5610038343A /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CEC3E328DDC5610038343A /* BannerView.swift */; };
+		66CEC41128DDC5610038343A /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CEC3EE28DDC5610038343A /* LottieView.swift */; };
+		66CEC41228DDC5610038343A /* Dimension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CEC3EF28DDC5610038343A /* Dimension.swift */; };
+		66CEC41828DDC5610038343A /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CEC3F628DDC5610038343A /* BaseView.swift */; };
+		66CEC42E28DDC5780038343A /* Publisher+Decode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CEC41F28DDC5780038343A /* Publisher+Decode.swift */; };
+		66CEC42F28DDC5780038343A /* Publishers+Retry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CEC42028DDC5780038343A /* Publishers+Retry.swift */; };
+		66CEC43028DDC5780038343A /* ResponseErrorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CEC42228DDC5780038343A /* ResponseErrorType.swift */; };
+		66CEC43128DDC5780038343A /* HTTPHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CEC42328DDC5780038343A /* HTTPHeader.swift */; };
+		66CEC43228DDC5780038343A /* NetworkAPIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CEC42428DDC5780038343A /* NetworkAPIError.swift */; };
+		66CEC43328DDC5780038343A /* ResponseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CEC42628DDC5780038343A /* ResponseError.swift */; };
+		66CEC43528DDC5780038343A /* NetworkAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CEC42828DDC5780038343A /* NetworkAPI.swift */; };
+		66CEC43928DDC77C0038343A /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CEC43828DDC77C0038343A /* Reachability.swift */; };
+		66CEC43C28DDCE130038343A /* Toilet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CEC43B28DDCE130038343A /* Toilet.swift */; };
+		66CEC43E28DDCE950038343A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CEC43D28DDCE950038343A /* HomeView.swift */; };
+		66E2D76728E7143C0031090B /* HandicapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E2D76628E7143C0031090B /* HandicapView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66CEC3B428DDC4CD0038343A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66CEC39B28DDC4CB0038343A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66CEC3A228DDC4CB0038343A;
+			remoteInfo = PublicToilets;
+		};
+		66CEC3BE28DDC4CD0038343A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66CEC39B28DDC4CB0038343A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66CEC3A228DDC4CB0038343A;
+			remoteInfo = PublicToilets;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		666567A928E2FE1000F174D8 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		666567AB28E2FF7400F174D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		666567B628E32B1C00F174D8 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		666567B828E32BA700F174D8 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		666567BB28E3300700F174D8 /* HomeListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeListRowView.swift; sourceTree = "<group>"; };
+		666567F328E5CEE000F174D8 /* PublicToilet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicToilet.swift; sourceTree = "<group>"; };
+		666567F728E6E4C300F174D8 /* AppInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfo.swift; sourceTree = "<group>"; };
+		666567FA28E6E8A800F174D8 /* ButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
+		6665680028E7015700F174D8 /* HoraireView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoraireView.swift; sourceTree = "<group>"; };
+		6665680328E7051E00F174D8 /* animationView.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animationView.json; sourceTree = "<group>"; };
+		66CEC3A328DDC4CB0038343A /* Public Toilets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Public Toilets.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66CEC3A628DDC4CB0038343A /* PublicToiletsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicToiletsApp.swift; sourceTree = "<group>"; };
+		66CEC3AA28DDC4CC0038343A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66CEC3AD28DDC4CC0038343A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		66CEC3B328DDC4CD0038343A /* PublicToiletsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PublicToiletsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66CEC3B728DDC4CD0038343A /* PublicToiletsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicToiletsTests.swift; sourceTree = "<group>"; };
+		66CEC3BD28DDC4CD0038343A /* PublicToiletsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PublicToiletsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66CEC3C128DDC4CD0038343A /* PublicToiletsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicToiletsUITests.swift; sourceTree = "<group>"; };
+		66CEC3C328DDC4CD0038343A /* PublicToiletsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicToiletsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		66CEC3DF28DDC5610038343A /* TextStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextStyle.swift; sourceTree = "<group>"; };
+		66CEC3E328DDC5610038343A /* BannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
+		66CEC3EE28DDC5610038343A /* LottieView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		66CEC3EF28DDC5610038343A /* Dimension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dimension.swift; sourceTree = "<group>"; };
+		66CEC3F628DDC5610038343A /* BaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		66CEC41F28DDC5780038343A /* Publisher+Decode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Publisher+Decode.swift"; sourceTree = "<group>"; };
+		66CEC42028DDC5780038343A /* Publishers+Retry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Publishers+Retry.swift"; sourceTree = "<group>"; };
+		66CEC42228DDC5780038343A /* ResponseErrorType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseErrorType.swift; sourceTree = "<group>"; };
+		66CEC42328DDC5780038343A /* HTTPHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPHeader.swift; sourceTree = "<group>"; };
+		66CEC42428DDC5780038343A /* NetworkAPIError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkAPIError.swift; sourceTree = "<group>"; };
+		66CEC42628DDC5780038343A /* ResponseError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseError.swift; sourceTree = "<group>"; };
+		66CEC42828DDC5780038343A /* NetworkAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkAPI.swift; sourceTree = "<group>"; };
+		66CEC43828DDC77C0038343A /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		66CEC43B28DDCE130038343A /* Toilet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toilet.swift; sourceTree = "<group>"; };
+		66CEC43D28DDCE950038343A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		66E2D76628E7143C0031090B /* HandicapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandicapView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66CEC3A028DDC4CB0038343A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				666567FF28E6EAE400F174D8 /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66CEC3B028DDC4CD0038343A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66CEC3BA28DDC4CD0038343A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		666567BA28E32FED00F174D8 /* HomeSubView */ = {
+			isa = PBXGroup;
+			children = (
+				666567BB28E3300700F174D8 /* HomeListRowView.swift */,
+				6665680028E7015700F174D8 /* HoraireView.swift */,
+			);
+			path = HomeSubView;
+			sourceTree = "<group>";
+		};
+		666567F528E5CFCA00F174D8 /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				66CEC43B28DDCE130038343A /* Toilet.swift */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		666567F628E5CFD500F174D8 /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				666567F328E5CEE000F174D8 /* PublicToilet.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		666567F928E6E78400F174D8 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				666567B828E32BA700F174D8 /* LocationManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		666567FC28E6E9D800F174D8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				66CEC43D28DDCE950038343A /* HomeView.swift */,
+				666567BA28E32FED00F174D8 /* HomeSubView */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		6665680228E7050C00F174D8 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				6665680328E7051E00F174D8 /* animationView.json */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		66CEC39A28DDC4CB0038343A = {
+			isa = PBXGroup;
+			children = (
+				66CEC3A428DDC4CB0038343A /* Products */,
+				66CEC3A528DDC4CB0038343A /* PublicToilets */,
+				66CEC3B628DDC4CD0038343A /* PublicToiletsTests */,
+				66CEC3C028DDC4CD0038343A /* PublicToiletsUITests */,
+			);
+			sourceTree = "<group>";
+		};
+		66CEC3A428DDC4CB0038343A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66CEC3A328DDC4CB0038343A /* Public Toilets.app */,
+				66CEC3B328DDC4CD0038343A /* PublicToiletsTests.xctest */,
+				66CEC3BD28DDC4CD0038343A /* PublicToiletsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66CEC3A528DDC4CB0038343A /* PublicToilets */ = {
+			isa = PBXGroup;
+			children = (
+				6665680228E7050C00F174D8 /* Animation */,
+				666567AB28E2FF7400F174D8 /* Info.plist */,
+				66CEC41A28DDC5780038343A /* Network */,
+				666567F928E6E78400F174D8 /* Manager */,
+				66CEC3D028DDC5610038343A /* Common */,
+				66CEC43F28DDCE9D0038343A /* View */,
+				66CEC43A28DDCDF80038343A /* Model */,
+				66CEC44028DDCEA70038343A /* ViewModel */,
+				66CEC3A628DDC4CB0038343A /* PublicToiletsApp.swift */,
+				66CEC3AA28DDC4CC0038343A /* Assets.xcassets */,
+				66CEC3AC28DDC4CC0038343A /* Preview Content */,
+			);
+			path = PublicToilets;
+			sourceTree = "<group>";
+		};
+		66CEC3AC28DDC4CC0038343A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				66CEC3AD28DDC4CC0038343A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		66CEC3B628DDC4CD0038343A /* PublicToiletsTests */ = {
+			isa = PBXGroup;
+			children = (
+				66CEC3B728DDC4CD0038343A /* PublicToiletsTests.swift */,
+			);
+			path = PublicToiletsTests;
+			sourceTree = "<group>";
+		};
+		66CEC3C028DDC4CD0038343A /* PublicToiletsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				66CEC3C128DDC4CD0038343A /* PublicToiletsUITests.swift */,
+				66CEC3C328DDC4CD0038343A /* PublicToiletsUITestsLaunchTests.swift */,
+			);
+			path = PublicToiletsUITests;
+			sourceTree = "<group>";
+		};
+		66CEC3D028DDC5610038343A /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				66CEC3EF28DDC5610038343A /* Dimension.swift */,
+				66CEC3DD28DDC5610038343A /* Style */,
+				66CEC3E228DDC5610038343A /* View */,
+				66CEC43828DDC77C0038343A /* Reachability.swift */,
+				666567F728E6E4C300F174D8 /* AppInfo.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		66CEC3DD28DDC5610038343A /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				66CEC3DF28DDC5610038343A /* TextStyle.swift */,
+				666567FA28E6E8A800F174D8 /* ButtonStyle.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		66CEC3E228DDC5610038343A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				66CEC3E328DDC5610038343A /* BannerView.swift */,
+				66CEC3EE28DDC5610038343A /* LottieView.swift */,
+				66CEC3F628DDC5610038343A /* BaseView.swift */,
+				66E2D76628E7143C0031090B /* HandicapView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		66CEC41A28DDC5780038343A /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				66CEC41B28DDC5780038343A /* NetworkAPI */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		66CEC41B28DDC5780038343A /* NetworkAPI */ = {
+			isa = PBXGroup;
+			children = (
+				66CEC41D28DDC5780038343A /* Utilities */,
+				66CEC42828DDC5780038343A /* NetworkAPI.swift */,
+			);
+			path = NetworkAPI;
+			sourceTree = "<group>";
+		};
+		66CEC41D28DDC5780038343A /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				66CEC41E28DDC5780038343A /* Extension */,
+				66CEC42128DDC5780038343A /* Enum */,
+				66CEC42528DDC5780038343A /* Model */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		66CEC41E28DDC5780038343A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				66CEC41F28DDC5780038343A /* Publisher+Decode.swift */,
+				66CEC42028DDC5780038343A /* Publishers+Retry.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		66CEC42128DDC5780038343A /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				66CEC42228DDC5780038343A /* ResponseErrorType.swift */,
+				66CEC42328DDC5780038343A /* HTTPHeader.swift */,
+				66CEC42428DDC5780038343A /* NetworkAPIError.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		66CEC42528DDC5780038343A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				66CEC42628DDC5780038343A /* ResponseError.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		66CEC43A28DDCDF80038343A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				666567F628E5CFD500F174D8 /* Local */,
+				666567F528E5CFCA00F174D8 /* Remote */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		66CEC43F28DDCE9D0038343A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				666567FC28E6E9D800F174D8 /* Home */,
+				666567B628E32B1C00F174D8 /* DetailsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		66CEC44028DDCEA70038343A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				666567A928E2FE1000F174D8 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66CEC3A228DDC4CB0038343A /* PublicToilets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66CEC3C728DDC4CD0038343A /* Build configuration list for PBXNativeTarget "PublicToilets" */;
+			buildPhases = (
+				66CEC39F28DDC4CB0038343A /* Sources */,
+				66CEC3A028DDC4CB0038343A /* Frameworks */,
+				66CEC3A128DDC4CB0038343A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PublicToilets;
+			packageProductDependencies = (
+				666567FE28E6EAE400F174D8 /* Lottie */,
+			);
+			productName = PublicToilets;
+			productReference = 66CEC3A328DDC4CB0038343A /* Public Toilets.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66CEC3B228DDC4CD0038343A /* PublicToiletsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66CEC3CA28DDC4CD0038343A /* Build configuration list for PBXNativeTarget "PublicToiletsTests" */;
+			buildPhases = (
+				66CEC3AF28DDC4CD0038343A /* Sources */,
+				66CEC3B028DDC4CD0038343A /* Frameworks */,
+				66CEC3B128DDC4CD0038343A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66CEC3B528DDC4CD0038343A /* PBXTargetDependency */,
+			);
+			name = PublicToiletsTests;
+			productName = PublicToiletsTests;
+			productReference = 66CEC3B328DDC4CD0038343A /* PublicToiletsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		66CEC3BC28DDC4CD0038343A /* PublicToiletsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66CEC3CD28DDC4CD0038343A /* Build configuration list for PBXNativeTarget "PublicToiletsUITests" */;
+			buildPhases = (
+				66CEC3B928DDC4CD0038343A /* Sources */,
+				66CEC3BA28DDC4CD0038343A /* Frameworks */,
+				66CEC3BB28DDC4CD0038343A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66CEC3BF28DDC4CD0038343A /* PBXTargetDependency */,
+			);
+			name = PublicToiletsUITests;
+			productName = PublicToiletsUITests;
+			productReference = 66CEC3BD28DDC4CD0038343A /* PublicToiletsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66CEC39B28DDC4CB0038343A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					66CEC3A228DDC4CB0038343A = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					66CEC3B228DDC4CD0038343A = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 66CEC3A228DDC4CB0038343A;
+					};
+					66CEC3BC28DDC4CD0038343A = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 66CEC3A228DDC4CB0038343A;
+					};
+				};
+			};
+			buildConfigurationList = 66CEC39E28DDC4CB0038343A /* Build configuration list for PBXProject "PublicToilets" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66CEC39A28DDC4CB0038343A;
+			packageReferences = (
+				666567FD28E6EAE400F174D8 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
+			productRefGroup = 66CEC3A428DDC4CB0038343A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66CEC3A228DDC4CB0038343A /* PublicToilets */,
+				66CEC3B228DDC4CD0038343A /* PublicToiletsTests */,
+				66CEC3BC28DDC4CD0038343A /* PublicToiletsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66CEC3A128DDC4CB0038343A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66CEC3AE28DDC4CC0038343A /* Preview Assets.xcassets in Resources */,
+				66CEC3AB28DDC4CC0038343A /* Assets.xcassets in Resources */,
+				6665680428E7051E00F174D8 /* animationView.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66CEC3B128DDC4CD0038343A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66CEC3BB28DDC4CD0038343A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66CEC39F28DDC4CB0038343A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66CEC43E28DDCE950038343A /* HomeView.swift in Sources */,
+				66CEC40428DDC5610038343A /* TextStyle.swift in Sources */,
+				66E2D76728E7143C0031090B /* HandicapView.swift in Sources */,
+				66CEC43528DDC5780038343A /* NetworkAPI.swift in Sources */,
+				666567F828E6E4C300F174D8 /* AppInfo.swift in Sources */,
+				666567FB28E6E8A800F174D8 /* ButtonStyle.swift in Sources */,
+				66CEC3A728DDC4CB0038343A /* PublicToiletsApp.swift in Sources */,
+				66CEC42E28DDC5780038343A /* Publisher+Decode.swift in Sources */,
+				66CEC43228DDC5780038343A /* NetworkAPIError.swift in Sources */,
+				66CEC40728DDC5610038343A /* BannerView.swift in Sources */,
+				6665680128E7015700F174D8 /* HoraireView.swift in Sources */,
+				666567B928E32BA700F174D8 /* LocationManager.swift in Sources */,
+				66CEC41228DDC5610038343A /* Dimension.swift in Sources */,
+				66CEC43128DDC5780038343A /* HTTPHeader.swift in Sources */,
+				66CEC43028DDC5780038343A /* ResponseErrorType.swift in Sources */,
+				66CEC42F28DDC5780038343A /* Publishers+Retry.swift in Sources */,
+				66CEC43C28DDCE130038343A /* Toilet.swift in Sources */,
+				66CEC43328DDC5780038343A /* ResponseError.swift in Sources */,
+				666567B728E32B1C00F174D8 /* DetailsView.swift in Sources */,
+				666567AA28E2FE1000F174D8 /* HomeViewModel.swift in Sources */,
+				666567BC28E3300700F174D8 /* HomeListRowView.swift in Sources */,
+				66CEC41828DDC5610038343A /* BaseView.swift in Sources */,
+				666567F428E5CEE000F174D8 /* PublicToilet.swift in Sources */,
+				66CEC43928DDC77C0038343A /* Reachability.swift in Sources */,
+				66CEC41128DDC5610038343A /* LottieView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66CEC3AF28DDC4CD0038343A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66CEC3B828DDC4CD0038343A /* PublicToiletsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66CEC3B928DDC4CD0038343A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66CEC3C428DDC4CD0038343A /* PublicToiletsUITestsLaunchTests.swift in Sources */,
+				66CEC3C228DDC4CD0038343A /* PublicToiletsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66CEC3B528DDC4CD0038343A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66CEC3A228DDC4CB0038343A /* PublicToilets */;
+			targetProxy = 66CEC3B428DDC4CD0038343A /* PBXContainerItemProxy */;
+		};
+		66CEC3BF28DDC4CD0038343A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66CEC3A228DDC4CB0038343A /* PublicToilets */;
+			targetProxy = 66CEC3BE28DDC4CD0038343A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		66CEC3C528DDC4CD0038343A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		66CEC3C628DDC4CD0038343A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66CEC3C828DDC4CD0038343A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				API_BASE_URL = "https://data.ratp.fr/api/records/1.0/search/?dataset=sanisettesparis2011&start=0&rows=100";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PublicToilets/Preview Content\"";
+				DEVELOPMENT_TEAM = SCU78A7T5N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PublicToilets/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Public Toilets needs your location";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ratp.PublicToilets;
+				PRODUCT_NAME = "Public Toilets";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		66CEC3C928DDC4CD0038343A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				API_BASE_URL = "https://data.ratp.fr/api/records/1.0/search/?dataset=sanisettesparis2011&start=0&rows=100";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PublicToilets/Preview Content\"";
+				DEVELOPMENT_TEAM = SCU78A7T5N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PublicToilets/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Public Toilets needs your location";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ratp.PublicToilets;
+				PRODUCT_NAME = "Public Toilets";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		66CEC3CB28DDC4CD0038343A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2K9B8662XY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Exemple.PublicToiletsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PublicToilets.app/PublicToilets";
+			};
+			name = Debug;
+		};
+		66CEC3CC28DDC4CD0038343A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2K9B8662XY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Exemple.PublicToiletsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PublicToilets.app/PublicToilets";
+			};
+			name = Release;
+		};
+		66CEC3CE28DDC4CD0038343A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2K9B8662XY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Exemple.PublicToiletsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PublicToilets;
+			};
+			name = Debug;
+		};
+		66CEC3CF28DDC4CD0038343A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2K9B8662XY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Exemple.PublicToiletsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PublicToilets;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66CEC39E28DDC4CB0038343A /* Build configuration list for PBXProject "PublicToilets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66CEC3C528DDC4CD0038343A /* Debug */,
+				66CEC3C628DDC4CD0038343A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66CEC3C728DDC4CD0038343A /* Build configuration list for PBXNativeTarget "PublicToilets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66CEC3C828DDC4CD0038343A /* Debug */,
+				66CEC3C928DDC4CD0038343A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66CEC3CA28DDC4CD0038343A /* Build configuration list for PBXNativeTarget "PublicToiletsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66CEC3CB28DDC4CD0038343A /* Debug */,
+				66CEC3CC28DDC4CD0038343A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66CEC3CD28DDC4CD0038343A /* Build configuration list for PBXNativeTarget "PublicToiletsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66CEC3CE28DDC4CD0038343A /* Debug */,
+				66CEC3CF28DDC4CD0038343A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		666567FD28E6EAE400F174D8 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		666567FE28E6EAE400F174D8 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 666567FD28E6EAE400F174D8 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 66CEC39B28DDC4CB0038343A /* Project object */;
+}
