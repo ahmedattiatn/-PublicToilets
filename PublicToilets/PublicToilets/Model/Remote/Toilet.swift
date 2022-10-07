@@ -115,6 +115,7 @@ enum Horaire: String, Codable {
     case the6H1H = "6 h - 1 h"
     case the6H22H = "6 h - 22 h"
     case voirFicheÉquipement = "Voir fiche équipement"
+    case unknown = "Unknown Horaire"
 }
 
 // MARK: - FieldsType
@@ -126,6 +127,7 @@ enum FieldsType: String, Codable {
     case urinoir = "URINOIR"
     case urinoirFemme = "URINOIR FEMME"
     case wcPublicsPermanents = "WC PUBLICS PERMANENTS"
+    case unknown = "Unknown Type"
 }
 
 // MARK: - Geometry
@@ -145,4 +147,16 @@ enum GeometryType: String, Codable {
 
 enum RecordTimestamp: String, Codable {
     case the20221004T041200432Z = "2022-10-04T04:12:00.432Z"
+}
+
+extension Horaire {
+    public init(from decoder: Decoder) throws {
+        self = try Horaire(rawValue: decoder.singleValueContainer().decode(RawValue.self)) ?? .unknown
+    }
+}
+
+extension FieldsType {
+    public init(from decoder: Decoder) throws {
+        self = try FieldsType(rawValue: decoder.singleValueContainer().decode(RawValue.self)) ?? .unknown
+    }
 }
