@@ -111,9 +111,6 @@ enum Gestionnaire: String, Codable {
 // MARK: - Horaire
 
 enum Horaire: String, Codable {
-    case horaire24H24 = "24h/24"
-    case the10HÀ22H = "10h à 22h"
-    case the19H7H = "19 h - 7 h"
     case the24H24 = "24 h / 24"
     case the6H1H = "6 h - 1 h"
     case the6H22H = "6 h - 22 h"
@@ -147,5 +144,5 @@ enum GeometryType: String, Codable {
 // MARK: - RecordTimestamp
 
 enum RecordTimestamp: String, Codable {
-    case the20220904T041200401Z = "2022-09-04T04:12:00.401Z"
+    case the20221004T041200432Z = "2022-10-04T04:12:00.432Z"
 }

@@ -32,11 +32,3 @@ struct HoraireView: View {
         }
     }
 }
-
-// MARK: - HoraireView_Previews
-
-struct HoraireView_Previews: PreviewProvider {
-    static var previews: some View {
-        HoraireView(horaire: .horaire24H24, urlFicheEquipement: "")
-    }
-}
